@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 
 export default function LogIn(){
 
-    const router = useRouter()
+    // const router = useRouter()
 
     const [username , setUsername] = useState('')
     const [password , setPassword] = useState('')
@@ -20,7 +20,7 @@ export default function LogIn(){
             password
         })
         if(res.ok){
-            router.push('/dashboard')
+            window.location.href='/dashboard'
         }else{
             alert('اطلاعات نامعتبر!!')
         }
