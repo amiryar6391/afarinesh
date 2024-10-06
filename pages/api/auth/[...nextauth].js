@@ -40,7 +40,7 @@ export default NextAuth({
         path:'/admin'
       },
       jwt: {
-        secret: process.env.JWT_SECRET,
+        secret: 'amiryar',
       },
     pages :{
         signIn : '/admin/login'
