@@ -35,6 +35,10 @@ export default NextAuth({
     session: {
         strategy: "jwt",
         maxAge: 1 * 24 * 60 * 60, 
+        httpOnly:true,
+        secure:true,
+        domain:'.vercel.app',
+        path:'/admin'
       },
       jwt: {
         secret: process.env.JWT_SECRET,
