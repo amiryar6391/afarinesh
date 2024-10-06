@@ -1,0 +1,10 @@
+.services{
+    background-image: url('../../../../public/images/body-services/hero1.jpg');
+    background-position: 100% 30%;
+    background-repeat: no-repeat;
+    background-size:cover !important;
+    background-attachment: fixed;
+    margin-top: 90px;
+    background-color: rgb(104,104,104);
+    background-blend-mode: multiply;
+}
