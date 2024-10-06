@@ -25,7 +25,7 @@ export default function Articles(){
     return(
         <section>
             <div className=' relative  h-[350px] md:h-[50vh] '>
-                <Image src={photo} fill alt='image articles' priority className="brightness-75 saturate-150 "  />
+                <Image src={photo} fill alt='image articles' priority className="brightness-75 saturate-150 object-cover " sizes='(max-width: 640px) 100vw,50vm' />
             </div>
             <div className=" container mx-auto mt-14 text-center">
                 <h1 className=" text-5xl font-iransB text-[#46533B]">مقالات ما</h1>

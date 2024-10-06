@@ -7,8 +7,8 @@ import photo1 from '../../public/images/aboutus/aboutus1.jpg'
 export default function Aboutus(){
     return(
         <>
-        <div className=" relative h-[350px] md:h-[50vh]">
-            <Image src={photo} fill alt="about us"  className="brightness-75 saturate-150"/>
+        <div className=" relative h-[350px] ">
+            <Image src={photo} fill alt="about us"  className="brightness-75 saturate-150 object-cover object-center" sizes='(max-width: 640px) 100vw,50vm'/>
         </div>
         <div className=" container mx-auto mt-20">
             <div className=" relative  h-[750px] lg:float-right lg:w-[650px] ml-10">

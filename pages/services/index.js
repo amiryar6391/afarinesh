@@ -24,8 +24,8 @@ export default function Services(){
     },[])
     return(
         <section>
-            <div className=' relative h-[350px] md:h-[50vh]'>
-                 <Image src={photo} fill alt='image services' priority className="brightness-75 saturate-150"  />
+            <div className=' relative h-[350px] w-full aspect-w-16 aspect-h-9'>
+                 <Image src={photo} fill alt='image services' priority className="brightness-75 saturate-150 object-contain md:object-cover object-center"  sizes='(max-width: 768px) 100vw,50vm' />
             </div>
             <div className=" container mx-auto mt-24">
                 <p className=" text-center text-[#46533B] text-xl font-iransB mb-8 md:text-right">خدمات ما</p>
