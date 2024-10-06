@@ -9,10 +9,10 @@ export default function Officevisit() {
   return (
     <div className=" container mx-auto mt-24 grid grid-cols-12 gap-5 pb-20">
       <div className=" col-span-12 lg:col-span-6">
-        <p className=" text-[#333333] text-2xl font-iransB mb-6">
+        <p className=" text-[#333333] text-2xl font-iransB mb-6 text-center md:text-right">
           به ما سر بزنید
         </p>
-        <h1 className="text-greenD text-7xl font-iransB leading-snug">
+        <h1 className="text-greenD text-7xl font-iransB leading-snug text-center md:text-right">
           همه سزاوار مراقبت ویژه ما هستند
         </h1>
         <p

@@ -20,14 +20,16 @@ export default function Homecardservices({
           {bodyservicestext}
         </p>
       
+      
       <Link href="/services">
-        <button className="flex justify-start items-center w-60 h-11 text-xl rounded-3xl text-white group/arrow  bg-transparent mt-9 transition-all duration-1000 group-hover/item:-translate-x-5">
+        <button className="flex justify-start items-center  w-60 h-11 text-xl rounded-3xl text-white group/arrow  bg-transparent mt-9 transition-all duration-1000 group-hover/item:-translate-x-5">
           خواندن بیشتر
           <span className=" text-white pr-1 transition-all duration-1000 group-hover/arrow:-translate-x-4">
             <HiMiniArrowLeft size="20px" />
           </span>
         </button>
       </Link>
+      
     </div>
   );
 }
