@@ -72,16 +72,17 @@ export default function ContactUs() {
   
   return (
     <section>
-      <div className=" relative h-[350px] md:h-[50vh]">
+      <div className=" relative h-[350px] w-full aspect-w-16 aspect-h-9">
         <Image
           src={photo}
           fill
           alt="image contact us"
           priority
-          className=" brightness-75"
+          className=" brightness-75 object-contain md:object-cover object-center"
+          sizes='(max-width: 768px) 100vw,50vm'
         />
       </div>
-      <div className=" container mx-auto mt-28">
+      <div className=" container mx-auto md:mt-28">
         <h1 className=" text-center font-iransB text-3xl text-[#46533B] md:text-right">
           با ما در تماس باشید
         </h1>

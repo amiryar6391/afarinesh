@@ -7,11 +7,11 @@ import photo1 from '../../public/images/aboutus/aboutus1.jpg'
 export default function Aboutus(){
     return(
         <>
-        <div className=" relative h-[350px] ">
-            <Image src={photo} fill alt="about us"  className="brightness-75 saturate-150 object-cover object-center" sizes='(max-width: 640px) 100vw,50vm'/>
+        <div className=" relative h-[350px] w-full aspect-w-16 aspect-h-9 ">
+            <Image src={photo} fill alt="about us"  className="brightness-75 saturate-150 object-contain md:object-cover object-center" sizes='(max-width: 768px) 100vw,50vm'/>
         </div>
-        <div className=" container mx-auto mt-20">
-            <div className=" relative  h-[750px] lg:float-right lg:w-[650px] ml-10">
+        <div className=" container mx-auto md:mt-20">
+            <div className=" relative h-[750px] lg:float-right lg:w-[650px] ml-10">
                  <Image src={photo1} fill alt="about us"/>
             </div>
             <p className="  text-xl text-[#46533B] text-center mt-5 lg:text-right ">به آفرینش خوش آمدید</p>

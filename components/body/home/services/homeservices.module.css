@@ -8,3 +8,10 @@
     background-color: rgb(104,104,104);
     background-blend-mode: multiply;
 }
+@media (max-width: 640px) {
+    .services {
+        background-position: center;
+        background-size: contain; 
+        background-attachment: scroll; 
+    }
+}

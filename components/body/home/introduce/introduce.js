@@ -42,48 +42,48 @@ export default function Introduce() {
               ما در آفرینش در کنار شما هستیم ، تا حال خوب را برای خود بیافرینید
             </p>
             <hr />
-            <p className=" flex items-center mt-5">
+            <p className=" flex items-center mt-5 text-sm md:text-base ">
               <TiTickOutline size="25px" color="#88947C" /> مشاوره زوج و زوج
               درمانی{" "}
             </p>
-            <p className=" flex items-center mt-5">
+            <p className=" flex items-center mt-5 text-sm md:text-base">
               <TiTickOutline size="25px" color="#88947C" /> مشاوره پیش از ازدواج
             </p>
-            <p className=" flex items-center mt-5">
+            <p className=" flex items-center mt-5 text-sm md:text-base">
               <TiTickOutline size="25px" color="#88947C" /> توسعه فردی(مدیریت
               خشم ، تفکر نقاد ، حل مسعله و... )
             </p>
-            <p className=" flex items-center mt-5">
+            <p className=" flex items-center mt-5 text-sm md:text-base">
               <TiTickOutline size="25px" color="#88947C" /> بازی درمانی(بیش
               فعالی ، توجه و تمرکز ، اوتیسم ، تاخیر رشدی و ...)
             </p>
-            <p className=" flex items-center mt-5">
+            <p className=" flex items-center mt-5 text-sm md:text-base">
               <TiTickOutline size="25px" color="#88947C" /> درمان افسردگی ،
               اضطراب ، وسواس و سایر مشکلات روانشناختی
             </p>
-            <p className=" flex items-center mt-5">
+            <p className=" flex items-center mt-5 text-sm md:text-base">
               <TiTickOutline size="25px" color="#88947C" />
               درمان اختلالات یادگیری(خواندن ، نوشتن ، ریاضی)
             </p>
-            <p className=" flex items-center mt-5">
+            <p className=" flex items-center mt-5 text-sm md:text-base">
               <TiTickOutline size="25px" color="#88947C" /> مشاوره کودک ، نوجوان
               و خانواده
             </p>
-            <p className=" flex items-center mt-5">
+            <p className=" flex items-center mt-5 text-sm md:text-base">
               <TiTickOutline size="25px" color="#88947C" />
               مشاوره تحصیلی (تمام پایه ها) و انتخاب رشته (پایه نهم و دوازدهم)
             </p>
-            <p className=" flex items-center mt-5">
+            <p className=" flex items-center mt-5 text-sm md:text-base">
               <TiTickOutline size="25px" color="#88947C" /> روانکاوی{" "}
             </p>
-            <p className=" flex items-center mt-5">
+            <p className=" flex items-center mt-5 text-sm md:text-base">
               <TiTickOutline size="25px" color="#88947C" /> تست رغبت شغلی{" "}
             </p>
-            <p className=" flex items-center mt-5">
+            <p className=" flex items-center mt-5 text-sm md:text-base">
               <TiTickOutline size="25px" color="#88947C" /> تست هوش ، شخصیت ،
               وکسلر ، بینه{" "}
             </p>
-            <p className=" flex items-center mt-5">
+            <p className=" flex items-center mt-5 text-sm md:text-base">
               <TiTickOutline size="25px" color="#88947C" /> تست AV12 برای تشخیص
               بیش فعالی و آیتم های دقت و تمرکز
             </p>

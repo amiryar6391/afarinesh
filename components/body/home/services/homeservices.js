@@ -26,8 +26,8 @@ export default function Homeservices(){
     return(
        <section className={styles.services}>
         <div className=" container mx-auto"> 
-            <p className=" text-white text-5xl pt-10">خدمات ما</p>
-            <h1 className=" text-white text-6xl font-iransB mt-10">آفرینش از اینجا شروع می شود</h1>
+            <p className=" text-white text-center text-5xl pt-10 md:text-right">خدمات ما</p>
+            <h1 className=" text-white text-6xl font-iransB mt-10 text-center md:text-right">آفرینش از اینجا شروع می شود</h1>
             <div className=" grid grid-cols-12 mt-9">
                 {bodyservicesitems.map((item) =>(
                 <div className=' col-span-12 md:col-span-6 lg:col-span-4 mb-10' key={item.id}><Homecardservices {...item} /></div>

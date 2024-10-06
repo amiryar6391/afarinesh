@@ -24,10 +24,10 @@ export default function Articles(){
 
     return(
         <section>
-            <div className=' relative  h-[350px] md:h-[50vh] '>
-                <Image src={photo} fill alt='image articles' priority className="brightness-75 saturate-150 object-cover " sizes='(max-width: 640px) 100vw,50vm' />
+            <div className=' relative h-[350px] w-full aspect-w-16 aspect-h-9 '>
+                <Image src={photo} fill alt='image articles' priority className="brightness-75 saturate-150 object-contain md:object-cover object-center " sizes='(max-width: 768px) 100vw,50vm' />
             </div>
-            <div className=" container mx-auto mt-14 text-center">
+            <div className=" container mx-auto md:mt-14 text-center">
                 <h1 className=" text-5xl font-iransB text-[#46533B]">مقالات ما</h1>
                 <p className="text-[#88947C] text-2xl font-iransB mt-9">کسب تجربیات مفید از اینجا شروع میشود</p>
                 <p className="text-[#88947C] mt-3 ">تیم مجرب کارشناسان مرکز مشاوره آفرینش ، بهترین و کاربردی ترین مقالات در زمینه های روانشناسی و روانشناختی را برای شما فراهم آوردند تا تجربیات خود را برای تعالی شما ، </p>

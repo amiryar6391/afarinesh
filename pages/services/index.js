@@ -27,7 +27,7 @@ export default function Services(){
             <div className=' relative h-[350px] w-full aspect-w-16 aspect-h-9'>
                  <Image src={photo} fill alt='image services' priority className="brightness-75 saturate-150 object-contain md:object-cover object-center"  sizes='(max-width: 768px) 100vw,50vm' />
             </div>
-            <div className=" container mx-auto mt-24">
+            <div className=" container mx-auto md:mt-24">
                 <p className=" text-center text-[#46533B] text-xl font-iransB mb-8 md:text-right">خدمات ما</p>
                 <h1 className=" text-center text-[#88947C] text-4xl font-iransB mb-6 md:text-right">شادی و سعادت از اینجا شروع می شود</h1>
                 <p className=" text-[#46533B] text-lg">هدف ما ارائه بهترین پشتیبانی ممکن برای افراد، زوج‌ها، خانواده‌ها و گروه‌هایی است که با مشکلات روانی، رفتاری یا عاطفی مواجه هستند</p>
