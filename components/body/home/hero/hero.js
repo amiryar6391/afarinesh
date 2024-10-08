@@ -36,7 +36,9 @@ export default function Hero() {
       className=" h-[584px]"
     >
       <SwiperSlide>
-        <Image src={banner1} fill={true}  alt="banner1" priority className=" brightness-50" />
+        <div className=' relative h-full w-full '>
+            <Image src={banner1} fill  alt="banner1" priority className=" brightness-50 object-cover object-center" sizes='(max-width: 768px) 100vw,50vm' />
+        </div>
         <div className=" absolute top-16 right-5  space-y-2 md:top-14 md:right-48 md:space-y-4 sm:top-16 sm:right-32 sm:space-y-3">
           <p className=" text-white text-center md:text-2xl sm:text-right  sm:text-xl">به آفرینش خوش آمدید</p>
           <p className=" text-white text-center  font-iransB leading-[50px] text-4xl md:leading-[75px] md:text-6xl sm:text-right sm:static sm:leading-[65px] sm:text-5xl">
@@ -70,7 +72,9 @@ export default function Hero() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={banner2} fill={true} alt="banner2" priority className=" brightness-50" />
+        <div className=' relative h-full w-full  '>
+            <Image src={banner2} fill alt="banner2" priority className=" brightness-50 object-cover object-center" sizes='(max-width: 768px) 100vw,50vm' />
+        </div>
         <div className="  absolute top-16 right-5 space-y-2 md:top-14 md:right-48 md:space-y-4 sm:top-16 sm:right-32 sm:space-y-3">
           <p className=" text-white text-center  md:text-2xl  sm:text-xl sm:text-right">به آفرینش خوش آمدید</p>
           <p className=" text-white text-center  font-iransB leading-[50px] text-4xl md:leading-[75px] md:text-6xl sm:text-right sm:static sm:leading-[65px] sm:text-5xl">
@@ -104,7 +108,9 @@ export default function Hero() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={banner3} fill={true} alt="banner3" priority className=" brightness-50" />
+        <div className=' relative h-full w-full '>
+           <Image src={banner3} fill alt="banner3" priority className=" brightness-50 object-cover object-center" sizes='(max-width: 768px) 100vw,50vm' />
+        </div>
         <div className="  absolute top-16 right-5 space-y-2 md:top-14 md:right-48 md:space-y-4 sm:top-16 sm:right-32 sm:space-y-3">
           <p className=" text-white text-center  md:text-2xl  sm:text-xl sm:text-right">به آفرینش خوش آمدید</p>
           <p className=" text-white text-center font-iransB leading-[50px] text-4xl md:leading-[75px] md:text-6xl sm:text-right sm:static sm:leading-[65px] sm:text-5xl">
