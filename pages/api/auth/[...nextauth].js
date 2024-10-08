@@ -37,8 +37,8 @@ export default NextAuth({
         maxAge: 1 * 24 * 60 * 60, 
         httpOnly:true,
         secure: process.env.NODE_ENV === 'production',
-        domain:'.vercel.app',
-        path:'/admin'
+        domain:'.com',
+        path:'/'
       },
       jwt: {
         secret: process.env.JWT_SECRET,
