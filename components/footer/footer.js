@@ -19,7 +19,7 @@ export default function Footer(){
                     <p className=" text-right text-greenD font-iransB mb-4">ما در آفرینش در کنار شما هستیم</p>
                     <p className=" text-left text-greenD font-iransB border-b pb-6">تا حال خوب را برای خود بیافرینید</p>
                     <p className=" flex items-center justify-center font-iransB  text-greenD mt-2">
-                        ما را دنبال کنید : <a href=""><FaInstagram size='30px' className="text-[#46533B] pr-2"/></a>
+                        ما را دنبال کنید : <a href="https://www.instagram.com/afarinesh.clinic.yazd/?igsh=dGVwYjFpZGZxajU4"><FaInstagram size='30px' className="text-[#46533B] pr-2"/></a>
                     </p>
                 </div>
                 <div className=" col-span-12 text-center lg:col-span-4 md:col-span-6">

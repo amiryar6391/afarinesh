@@ -168,7 +168,7 @@ export default function ContactUs() {
             <div className=" text-center mt-11">
               <p className=" text-[#88947C] font-iransB">ما را دنبال کنید</p>
               <hr className="w-1/2 mx-auto mt-3 mb-3" />
-              <a href="" className=" inline-block ">
+              <a href="https://www.instagram.com/afarinesh.clinic.yazd/?igsh=dGVwYjFpZGZxajU4" className=" inline-block ">
                 <FaInstagram size="30px" className="text-[#46533B] pr-2" />
               </a>
             </div>
