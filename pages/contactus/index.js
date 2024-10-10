@@ -49,8 +49,7 @@ export default function ContactUs() {
           icon: "error",
           title: "ثبت پیام شما با خطا مواجه شد!لطفا مجدد سعی کنید",
           confirmButtonColor:"#88947C"
-          // showConfirmButton: false,
-          // timer: 2500
+          
         });
       }
       
@@ -60,8 +59,7 @@ export default function ContactUs() {
         icon: "warning",
         title: "پر کردن فیلدهای ستاره دار الزامی است!",
         confirmButtonColor:"#88947C"
-        // showConfirmButton: false,
-        // timer: 2500
+        
       });
 
     }

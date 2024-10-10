@@ -1,27 +1,13 @@
 import Image from "next/image"
 import photo from '../../public/images/services/dast.jpg'
 import { HiMiniArrowLeft } from "react-icons/hi2";
-import { useEffect, useState } from "react";
 import Link from "next/link";
 
 
 
 
-export default function Services(){
+export default function Services({services}){
 
-    const [services , setServices] = useState([])
-
-    const getServices = async () => {
-        const res = await fetch('/api/services')
-        const data = await res.json()
-        setServices(data)
-    }
-
-    useEffect(() =>{
-
-        getServices()
-
-    },[])
     return(
         <section>
             <div className=' relative h-[350px] w-full aspect-w-16 aspect-h-9'>
@@ -63,4 +49,13 @@ export default function Services(){
 
 
     )
+}
+
+export async function getStaticProps(){
+        const res = await fetch(`${process.env.NEXTAUTH_URL}/api/services`)
+        const services = await res.json()
+
+    return{
+        props:{services}
+    }
 }

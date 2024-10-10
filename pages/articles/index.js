@@ -1,25 +1,14 @@
 import Image from "next/image";
 import photo from '../../public/images/article/ketab.jpg'
 import CardArticle from "@/components/body/articles/cardArticle";
-import { useState } from "react";
 
 
 
 
 
-export default function Articles(){
-    const [articles , setArticles] = useState([])
 
-    const getArticles = async () =>{
-        const res = await fetch('/api/articles')
-        const data = await res.json()
-        setArticles(data)
-    }
-
-    useState(()=>{
-        getArticles()
-    },[])
-
+export default function Articles({articles}){
+   
 
 
     return(
@@ -47,4 +36,15 @@ export default function Articles(){
 
         </section>
     )
+}
+
+export async function getStaticProps(){
+         const res = await fetch(`${process.env.NEXTAUTH_URL}/api/articles`)
+        const articles = await res.json()
+
+    return{
+        props:{
+            articles
+        }
+    }
 }

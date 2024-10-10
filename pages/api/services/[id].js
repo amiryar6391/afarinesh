@@ -8,14 +8,7 @@ export default async function handler( req , res) {
     await connectToDb()
 
    const {id} = req.query
-   console.log(id);
    
-
-   
-   
-    
-    
-
     if( req.method === 'GET'){
         if(isValidObjectId(id)){
              try{

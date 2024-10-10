@@ -6,27 +6,15 @@ import { Autoplay} from 'swiper/modules';
 
 
 import Teamcard from './teamcard';
-import { useEffect, useState } from 'react';
 
 
 
-export default function Team(){
-
-    const[teaminfos , setTeaminfos]=useState([])
-
-    const getTeam = async () =>{
-        const res=await fetch('/api/colleagues')
-        const data=await res.json()
-        setTeaminfos(data)
-
-    }
-
-    useEffect(()=>{
-        getTeam()
-    },[])
-
+export default function Team({teamInfos}){
+   
 
     return(
+        
+        
         <section className=" container mx-auto mt-16 text-center">
             <h3 className=" text-2xl text-[#46533B] font-iransB mb-8">تیم مجرب ما</h3>
             <h1 className=" text-5xl text-greenD font-iransB mb-8 ">درمانگری را پیدا کنید که به شما کمک کند</h1>
@@ -52,7 +40,7 @@ export default function Team(){
                         loop={true}
                         modules={[Autoplay]}
                     >
-                        {teaminfos.map( (info) =>(
+                        {teamInfos.map( (info) =>(
                             <SwiperSlide key={info._id} ><Teamcard {...info}/> </SwiperSlide>
 
                         ))}

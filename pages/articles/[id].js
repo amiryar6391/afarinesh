@@ -1,27 +1,8 @@
-import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+
 import Image from "next/image";
 
-export default function ReadArticle() {
+export default function ReadArticle({article}) {
 
-  
-  const { id } = useRouter().query;
-  const [article, setArticle] = useState({});
-
-  const getArticle = async () => {
-   if(id){
-    const res = await fetch(`/api/articles/${id}`);
-    const data = await res.json();
-    setArticle(data);
-   }
-  };
-
-  useEffect(() => {
-    getArticle();
-  }, [id]);
-
- 
-  
 
   return (
     <section>
@@ -41,12 +22,36 @@ export default function ReadArticle() {
           }
           
         </div>
-        <p className=" text-justify  leading-loose indent-8 text-gray-600">
+        
           {article?.text
-            ? <div className=" article" dangerouslySetInnerHTML={{ __html : article.text }}/>
+            ? <div className=" text-justify  leading-loose indent-8 text-gray-600 article" dangerouslySetInnerHTML={{ __html : article.text }}/>
             : 'No content available'}
-        </p>
+        
       </div>
     </section>
   );
+}
+
+export async function getStaticProps(context){
+  const {id} = context.params
+  const res=await fetch(`${process.env.NEXTAUTH_URL}/api/articles/${id}`)
+  const article=await res.json()
+
+  return{
+    props:{
+      article
+    }
+  }
+}
+
+export async function getStaticPaths(){
+  const res=await fetch(`${process.env.NEXTAUTH_URL}/api/articles`)
+  const articles=await res.json()
+  const paths=articles.map((article)=>{
+    return {params : {id:String(article._id)}}
+  })
+  return{
+    paths,
+    fallback:false
+  }
 }
