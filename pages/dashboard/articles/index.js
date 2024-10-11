@@ -107,7 +107,7 @@ export default function ArticleEdit(){
                         <div className=" border h-40 mb-4 flex gap-4" key={article._id}>
                   
                              <div className=" relative h-full w-1/6 ">
-                                 <Image src={`data:${article.image.contentType};base64,${Buffer.from(article.image.url.data).toString('base64')}`} alt="articles" fill loading />
+                                 <Image src={`data:${article.image.contentType};base64,${Buffer.from(article.image.url.data).toString('base64')}`} alt="articles" fill />
                             </div>
                              <div >
                                 <p className=" mt-3"><span className=" font-iransB">عنوان مقاله : </span>{article.title}</p>
