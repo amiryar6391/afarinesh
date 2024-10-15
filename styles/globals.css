@@ -55,6 +55,4 @@
     @apply flex mt-8 mb-8 w-[800px] h-[500px] mx-auto;
   }
 
-  body{
-    direction: rtl;
-  }
+ 
