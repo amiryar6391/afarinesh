@@ -77,7 +77,6 @@ export default function ContactUs() {
           alt="image contact us"
           priority
           className=" brightness-75 object-contain md:object-cover object-center"
-          sizes='(max-width: 768px) 100vw,50vm'
         />
       </div>
       <div className=" container mx-auto md:mt-28">

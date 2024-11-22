@@ -2,12 +2,10 @@ import Link from "next/link";
 import { useState } from "react";
 import { HiMiniArrowLeft } from "react-icons/hi2";
 import {signIn} from 'next-auth/react'
-import { useRouter } from "next/router";
 
 
 export default function LogIn(){
 
-    // const router = useRouter()
 
     const [username , setUsername] = useState('')
     const [password , setPassword] = useState('')

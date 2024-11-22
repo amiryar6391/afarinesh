@@ -22,8 +22,6 @@ export default function Introduce() {
               alt="imageintroduce"
               priority
             
-              sizes="(min-width:768px) 50vw , 100vw"
-            
             />
           </div>
         <div className=" col-span-12 lg:mx-auto lg:col-span-6">

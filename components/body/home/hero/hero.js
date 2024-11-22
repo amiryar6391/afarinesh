@@ -37,7 +37,7 @@ export default function Hero() {
     >
       <SwiperSlide>
         <div className=' relative h-full w-full '>
-            <Image src={banner1} fill  alt="banner1" priority className=" brightness-50 object-cover object-center" sizes='(max-width: 768px) 100vw,50vm' />
+            <Image src={banner1} fill  alt="banner1" priority className=" brightness-50 object-cover object-center" />
         </div>
         <div className=" absolute top-16 right-5  space-y-2 md:top-14 md:right-48 md:space-y-4 sm:top-16 sm:right-32 sm:space-y-3">
           <p className=" text-white text-center md:text-2xl sm:text-right  sm:text-xl">به آفرینش خوش آمدید</p>
@@ -73,7 +73,7 @@ export default function Hero() {
       </SwiperSlide>
       <SwiperSlide>
         <div className=' relative h-full w-full  '>
-            <Image src={banner2} fill alt="banner2" priority className=" brightness-50 object-cover object-center" sizes='(max-width: 768px) 100vw,50vm' />
+            <Image src={banner2} fill alt="banner2" priority className=" brightness-50 object-cover object-center" />
         </div>
         <div className="  absolute top-16 right-5 space-y-2 md:top-14 md:right-48 md:space-y-4 sm:top-16 sm:right-32 sm:space-y-3">
           <p className=" text-white text-center  md:text-2xl  sm:text-xl sm:text-right">به آفرینش خوش آمدید</p>
@@ -109,7 +109,7 @@ export default function Hero() {
       </SwiperSlide>
       <SwiperSlide>
         <div className=' relative h-full w-full '>
-           <Image src={banner3} fill alt="banner3" priority className=" brightness-50 object-cover object-center" sizes='(max-width: 768px) 100vw,50vm' />
+           <Image src={banner3} fill alt="banner3" priority className=" brightness-50 object-cover object-center" />
         </div>
         <div className="  absolute top-16 right-5 space-y-2 md:top-14 md:right-48 md:space-y-4 sm:top-16 sm:right-32 sm:space-y-3">
           <p className=" text-white text-center  md:text-2xl  sm:text-xl sm:text-right">به آفرینش خوش آمدید</p>

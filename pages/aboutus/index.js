@@ -8,7 +8,7 @@ export default function Aboutus(){
     return(
         <>
         <div className=" relative h-[350px] w-full aspect-w-16 aspect-h-9 ">
-            <Image src={photo} fill alt="about us"  className="brightness-75 saturate-150 object-contain md:object-cover object-center" sizes='(max-width: 768px) 100vw,50vm'/>
+            <Image src={photo} fill alt="about us"  className="brightness-75 saturate-150 object-contain md:object-cover object-center"/>
         </div>
         <div className=" container mx-auto md:mt-20">
             <div className=" relative h-[750px] hidden md:block lg:float-right lg:w-[650px] ml-10">
