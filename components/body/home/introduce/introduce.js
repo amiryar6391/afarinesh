@@ -3,7 +3,7 @@ import { TiTickOutline } from "react-icons/ti";
 import { HiMiniArrowLeft } from "react-icons/hi2";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import photo1 from "../../../../public/images/introduction/2.jpg";
+import photo1 from "../../../../public/images/introduction/2.webp";
 import Link from "next/link";
 import { useEffect } from "react";
 

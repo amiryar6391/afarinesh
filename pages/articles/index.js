@@ -1,5 +1,5 @@
 import Image from "next/image";
-import photo from '../../public/images/article/ketab.jpg'
+import photo from '../../public/images/article/ketab.webp'
 import CardArticle from "@/components/body/articles/cardArticle";
 
 

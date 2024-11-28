@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import photo from '../../../../public/images/body-services/hero1.jpg'
+
 import image1_body_services from '../../../../public/images/body-services/ser1.svg'
 import image2_body_services from '../../../../public/images/body-services/ser2.svg'
 import image3_body_services from '../../../../public/images/body-services/ser3.svg'

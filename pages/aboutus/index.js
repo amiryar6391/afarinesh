@@ -1,6 +1,6 @@
 import Image from "next/image";
-import photo from '../../public/images/aboutus/kafe.jpg'
-import photo1 from '../../public/images/aboutus/aboutus1.jpg'
+import photo from '../../public/images/aboutus/kafe.webp'
+import photo1 from '../../public/images/aboutus/aboutus1.webp'
 
 
 

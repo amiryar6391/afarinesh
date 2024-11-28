@@ -1,7 +1,7 @@
 import { IoMdTime } from "react-icons/io";
 import { TiPhoneOutline } from "react-icons/ti";
 import { TiTickOutline } from "react-icons/ti";
-import photo from "../../../../public/images/office-visit/office.jpg";
+import photo from "../../../../public/images/office-visit/office.webp";
 import Image from "next/image";
 import Link from "next/link";
 

@@ -1,5 +1,5 @@
 import Image from "next/image"
-import photo from '../../public/images/services/dast.jpg'
+import photo from '../../public/images/services/dast.webp'
 import { HiMiniArrowLeft } from "react-icons/hi2";
 import Link from "next/link";
 

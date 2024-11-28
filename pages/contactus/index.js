@@ -1,5 +1,5 @@
 import Image from "next/image";
-import photo from "../../public/images/contactus/yazd 5.jpg";
+import photo from "../../public/images/contactus/yazd 5.webp";
 
 import { AiOutlinePhone } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
