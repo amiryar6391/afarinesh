@@ -16,9 +16,9 @@ export default function Homeservices(){
         {id:1,bodyservicesimage: image1_body_services , bodyservicestitle:'بزرگسالان' , bodyservicestext:'ما طیف وسیعی از نگرانی‌های سلامت روان مانند افسردگی، اضطراب، حملات پانیک، اختلالات شخصیت و بسیاری موارد دیگر را درمان می‌کنیم. برنامه های درمانی به طور خاص توسعه می یابد'},
         {id:2,bodyservicesimage: image2_body_services , bodyservicestitle:'کودکان و نوجوانان' , bodyservicestext:'ما با کودکان و نوجوانانی کار می‌کنیم که در طیف وسیعی از مسائل مانند اضطراب ، خلق‌وخو ضعیف ، نگرانی‌های مربوط به خوردن و تصویر بدن ، بازی یا اینترنت به حمایت نیاز دارند…'},
         {id:3,bodyservicesimage: image3_body_services , bodyservicestitle:'سلامت محل کار' , bodyservicestext:'سلامتی در محل کار اختیاری نیست شادابی روان برای حفظ نیروی کار شاد و مولد در هر سازمانی با عملکرد بالا ضروری است که در آفرینش کارشناسان ما رویکرد مناسب را به شما نشان میدهند.'},
-        {id:4,bodyservicesimage: image4_body_services , bodyservicestitle:'ارزیابی ها' , bodyservicestext:'ارزیابی‌های روان‌شناختی بخش کلیدی شناخت خود، فرزند یا نوجوانتان است. توسط روانشناسان ما با استفاده از روشهای معتبر و شناخته شده بین المللی انجام می شود'},
+        {id:4,bodyservicesimage: image4_body_services , bodyservicestitle:'ارزیابی ها' , bodyservicestext:'ارزیابی‌های روان‌شناختی بخش کلیدی شناخت خود، فرزند یا نوجوانتان است.این فرآیند توسط روانشناسان ما با استفاده از روشهای معتبر و شناخته شده بین المللی و تست های استاندارد انجام می شود'},
         {id:5,bodyservicesimage: image5_body_services , bodyservicestitle:'گروه های پشتیبانی' , bodyservicestext:'گروه‌های حمایتی و گروه‌درمانی ممکن است برای همه مناسب نباشند اما برای برخی، راه نجاتی هستند که طیفی ارزشمند از مراقبت را  برای سایر شکل های درمانی ارائه می‌کنند.'},
-        {id:6,bodyservicesimage: image6_body_services , bodyservicestitle:'خدمات اجتماعی' , bodyservicestext:'در آفرینش ما با والدین، اعضای خانواده و مراقبین از نزدیک کار می کنیم و در صورت نیاز با خدمات خارجی از جمله پزشکان خانواده، پزشکان اطفال همکاری می کنی'}
+        {id:6,bodyservicesimage: image6_body_services , bodyservicestitle:'خدمات اجتماعی' , bodyservicestext:'در آفرینش ما با والدین، اعضای خانواده و مراقبین از نزدیک کار می کنیم و در صورت نیاز با خدمات خارجی از جمله پزشکان خانواده، پزشکان اطفال و روانپزشکان همکاری می کنیم'}
 
     ] 
 
