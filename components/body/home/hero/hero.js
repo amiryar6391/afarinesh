@@ -4,8 +4,8 @@ import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 
-import banner1 from "../../../../public/images/hero/Untitled-1.webp";
-import banner2 from "../../../../public/images/hero/zoje1.webp";
+import banner1 from "../../../../public/images/hero/2148759095.webp";
+import banner2 from "../../../../public/images/hero/1810.webp";
 import banner3 from "../../../../public/images/hero/negaresh.webp";
 import Image from "next/image";
 import { TiPhoneOutline } from "react-icons/ti";
