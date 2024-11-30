@@ -5,8 +5,10 @@ export default function Document() {
     <Html lang="fa" dir="rtl">
       <Head>
         <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>مرکز مشاوره عمومی آفرینش</title>
+        <meta name="author" content="مرکز مشاوره عمومی آفرینش" />
+        <meta name="description" content="بهترین مرکز مشاوره عمومی با برخورداری از باتجربه ترین روانشناسان درمانگران و مشاوران و مربی های تربیتی برای تمامی رده های سنی کودکان نوجوانان جوانان و بزرگسالان با بهترین کیفیت و مناسبترین قیمت."/>
+        <meta property="og:title" content="مرکز مشاوره و روانشناسی آفرینش" />
+        <meta property="og:description" content="بهبود کیفیت زندگی و سلامت روان شما با خدمات مشاوره حرفه‌ای." />
       </Head>
       <body className="antialiased">
         <Main />

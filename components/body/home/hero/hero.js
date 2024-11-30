@@ -5,8 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 
 import banner1 from "../../../../public/images/hero/img-baner.webp";
-import banner2 from "../../../../public/images/hero/2148759095.webp";
-import banner3 from "../../../../public/images/hero/negaresh.webp";
+import banner2 from "../../../../public/images/hero/img-baner1.webp";
+import banner3 from "../../../../public/images/hero/2148759095.webp";
 import Image from "next/image";
 import { TiPhoneOutline } from "react-icons/ti";
 import { HiMiniArrowLeft } from "react-icons/hi2";
@@ -24,7 +24,7 @@ export default function Hero() {
       }}
       speed={1700}
       autoplay={{
-        delay: 2500,
+        delay: 3000,
         pauseOnMouseEnter: true,
         disableOnInteraction: false,
       }}
