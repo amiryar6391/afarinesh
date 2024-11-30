@@ -1,6 +1,6 @@
 import Image from "next/image";
 import photo from '../../public/images/aboutus/about-banner.webp'
-import photo1 from '../../public/images/aboutus/2149341105.webp'
+import photo1 from '../../public/images/aboutus/mahdie.webp'
 
 
 
@@ -11,7 +11,7 @@ export default function Aboutus(){
             <Image src={photo} fill alt="about us"  className="brightness-50 saturate-100 object-contain md:object-cover object-center"/>
         </div>
         <div className=" container mx-auto md:mt-20">
-            <div className=" relative h-[750px] hidden md:block lg:float-right lg:w-[650px] ml-10">
+            <div className=" relative h-[750px] hidden md:block lg:float-right lg:w-[550px] ml-10">
                  <Image src={photo1} fill alt="about us"/>
             </div>
             <p className="  text-xl text-[#46533B] text-center mt-5 lg:text-right ">به آفرینش خوش آمدید</p>
