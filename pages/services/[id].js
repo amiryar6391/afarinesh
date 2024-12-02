@@ -20,7 +20,7 @@ export default function ShowServices({descService}){
                 <div className=" container mx-auto mt-10">
                     <h3 className=" text-center text-xl text-[#88947C] mb-12 md:text-right">ما اینجا هستیم تا کمک کنیم</h3>
                     
-                    <div className=" image article text-justify  leading-loose indent-8 text-gray-600" dangerouslySetInnerHTML={{__html : descService.text}}/>
+                    <div className=" image article text-justify p-4 leading-loose indent-8 text-gray-600" dangerouslySetInnerHTML={{__html : descService.text}}/>
                     
                 </div>
             </section>

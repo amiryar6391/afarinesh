@@ -23,10 +23,10 @@ export default function ReadArticle({article}) {
           </h1>
         </div>
         <div className=" container mx-auto mt-20">
-          <div className=" relative text-center w-96 h-96  lg:float-right ml-5 ">
+          <div className=" relative w-72 h-96  lg:float-right lg:w-96 ml-5 ">
             {image?.url?.data
             ?
-            <Image src={`data:${image.contentType};base64,${Buffer.from(image.url.data).toString('base64')}`} fill  alt="article" className=" inline-block" />
+            <Image src={`data:${image.contentType};base64,${Buffer.from(image.url.data).toString('base64')}`} fill  alt="article" />
             :
             'no data available'
             
@@ -35,7 +35,7 @@ export default function ReadArticle({article}) {
           </div>
           
             {text 
-              ? <div className=" text-justify  leading-loose indent-8 text-gray-600 article" dangerouslySetInnerHTML={{ __html :text }}/>
+              ? <div className=" text-justify p-4  leading-loose indent-8 text-gray-600 article" dangerouslySetInnerHTML={{ __html :text }}/>
               : 'No content available'}
           
         </div>
