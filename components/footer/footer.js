@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from '../../public/logo/Logo_Afarinesh.svg'
+import eitaa from '../../public/images/footer/eitaa.svg'
 import { GiPlainCircle } from "react-icons/gi";
-import { TiPhoneOutline } from "react-icons/ti";
 import { HiOutlineDevicePhoneMobile } from "react-icons/hi2";
 import { GrLocation } from "react-icons/gr";
 import { FaInstagram } from "react-icons/fa";
@@ -20,6 +20,9 @@ export default function Footer(){
                     <p className=" text-left text-greenD font-iransB border-b pb-6">تا حال خوب را برای خود بیافرینید</p>
                     <p className=" flex items-center justify-center font-iransB  text-greenD mt-2">
                         ما را دنبال کنید : <a href="https://www.instagram.com/afarinesh.clinic.yazd/?igsh=dGVwYjFpZGZxajU4"><FaInstagram size='30px' className="text-[#46533B] pr-2"/></a>
+                        <a href="" className=" mr-3">
+                            <Image src={eitaa} alt="eitta footer" width={21} height={21}/>
+                        </a>
                     </p>
                 </div>
                 <div className=" col-span-12 text-center lg:col-span-4 md:col-span-6">
@@ -36,11 +39,10 @@ export default function Footer(){
                 </div>
                 <div className=" col-span-12 text-center lg:col-span-4 md:col-span-6 md:text-right">
                 <h1 className="text-[#46533B] text-2xl font-iransB mt-16">تماس با ما</h1>
-                <p className="flex items-center mt-10 mb-6">< TiPhoneOutline size='30px' className=" text-[#46533B] pl-1"/>:035-37754538</p>
-                <p className="flex items-center mb-6"><HiOutlineDevicePhoneMobile size='30px' className=" text-[#46533B] pl-1"/>:09132275424</p>
+                <p className="flex items-center mt-10 mb-6"><HiOutlineDevicePhoneMobile size='30px' className=" text-[#46533B] pl-1"/> : ۰۹۹۲۳۵۱۰۰۸۹</p>
                 <div className=" flex items-start">
                     <span><GrLocation size='30px' className=" text-[#46533B] pl-1"/></span>
-                    <p>:یزد-خیابان کاشانی-خیابان چمران-جنب بانک ملت و بانک مسکن-بن بست صادقیه-مرکز مشاوره آفرینش</p>
+                    <p> : یزد - خیابان کاشانی - خیابان چمران - جنب بانک ملت و بانک مسکن - بن بست صادقیه - مرکز مشاوره آفرینش</p>
 
                 </div>
                 </div>

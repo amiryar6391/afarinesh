@@ -13,6 +13,7 @@ export default function ArticleEdit(){
     const [imageFile , setImageFile] = useState(null)
     const [textFile , setTextFile] = useState(null)
     const [title , setTitle] = useState('')
+    const [keywords , setKeywords] = useState('')
     const [articles , setArticles] = useState([])
     
 
@@ -39,6 +40,8 @@ export default function ArticleEdit(){
            formdata.append('image' , imageFile)
            formdata.append('text' , textFile)
            formdata.append('title' , title)
+           formdata.append('keywords' , keywords)
+
            
            const res=await fetch('/api/articles' , {
                method : 'POST',
@@ -123,6 +126,10 @@ export default function ArticleEdit(){
 
                             <div>
                                  <input type="text" placeholder="عنوان مقاله" onChange={(e) => setTitle(e.target.value)} className=" focus:outline-none mt-5  w-[50%]  pb-4 border-b-2" />
+                            </div>
+
+                            <div className=" mt-8">
+                                <input type="text" placeholder="کلمات کلیدی مقاله" onChange={(e) => setKeywords(e.target.value)} className=" focus:outline-none mt-5  w-[80%]  pb-4 border-b-2" />
                             </div>
 
                             <div className=" mt-8">

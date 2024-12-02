@@ -22,7 +22,7 @@ export default function Hero() {
         "--swiper-pagination-bullet-size": "15px",
         "--swiper-pagination-bullet-horizontal-gap": "4px",
       }}
-      speed={1700}
+      speed={1500}
       autoplay={{
         delay: 3000,
         pauseOnMouseEnter: true,
@@ -36,8 +36,8 @@ export default function Hero() {
       className=" h-[584px]"
     >
       <SwiperSlide>
-        <div className=' relative h-full w-full '>
-            <Image src={banner1} fill  alt="banner1" priority className=" brightness-50 object-cover object-center" />
+        <div className=' relative h-full w-full'>
+            <Image src={banner1} fill  alt="banner1" priority className=" brightness-50  object-cover object-center" />
         </div>
         <div className=" absolute top-16 right-5  space-y-2 md:top-14 md:right-48 md:space-y-4 sm:top-16 sm:right-32 sm:space-y-3">
           <p className=" text-white text-center md:text-2xl sm:text-right  sm:text-xl">به آفرینش خوش آمدید</p>
@@ -72,7 +72,7 @@ export default function Hero() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className=' relative h-full w-full  '>
+        <div className=' relative h-full w-full'>
             <Image src={banner2} fill alt="banner2" priority className=" brightness-50 object-cover object-center" />
         </div>
         <div className="  absolute top-16 right-5 space-y-2 md:top-14 md:right-48 md:space-y-4 sm:top-16 sm:right-32 sm:space-y-3">
@@ -108,7 +108,7 @@ export default function Hero() {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className=' relative h-full w-full '>
+        <div className=' relative h-full w-full'>
            <Image src={banner3} fill alt="banner3" priority className=" brightness-50 object-cover object-center" />
         </div>
         <div className="  absolute top-16 right-5 space-y-2 md:top-14 md:right-48 md:space-y-4 sm:top-16 sm:right-32 sm:space-y-3">

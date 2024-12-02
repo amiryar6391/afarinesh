@@ -1,12 +1,16 @@
 import Image from "next/image";
 import photo from '../../public/images/aboutus/about-banner.webp'
 import photo1 from '../../public/images/aboutus/mahdie.webp'
+import Head from "next/head";
 
 
 
 export default function Aboutus(){
     return(
         <>
+        <Head>
+                <title>درباره ما مرکز مشاوره عمومی آفرینش</title>
+        </Head>
         <div className=" relative h-[350px] w-full aspect-w-16 aspect-h-9 ">
             <Image src={photo} fill alt="about us"  className="brightness-50 saturate-100 object-contain md:object-cover object-center"/>
         </div>

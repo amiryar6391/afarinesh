@@ -42,7 +42,7 @@ export default async function handler(req,res){
                 const txtbuffer = req.files['text'][0].buffer
                
 
-                const { title } = req.body
+                const { title , keywords } = req.body
 
                 try{
                     const convert = await mammoth.convertToHtml({ buffer : txtbuffer })
@@ -51,6 +51,7 @@ export default async function handler(req,res){
                     const result = await articleModel.create(
                         {
                             title,
+                            keywords,
                             image:{ url : imgbuffer , contentType : imgmime},
                             text:html
 

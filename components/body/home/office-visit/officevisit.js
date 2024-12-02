@@ -36,16 +36,25 @@ export default function Officevisit() {
               <span className=" pl-1 pb-1">
                 <IoMdTime size="20px" />
               </span>
-              <p> 10:00 صبح - 8:00 شب</p>
+              <p> 4:00 عصر - 10:00 شب</p>
             </div>
           </li>
-          <li className=" pb-6 flex items-center justify-between border-b border-greenD">
-            <p>پنجشنبه</p>
+          <li className=" mb-7 pb-6 flex items-center justify-between border-b border-greenD">
+            <p>شنبه ، دوشنبه و پنج شنبه</p>
             <div className=" flex items-center">
               <span className=" pl-1 pb-1">
                 <IoMdTime size="20px" />
               </span>
-              <p>10:00 صبح - 2:00 ظهر</p>
+              <p>8:00 صبح - 1:00 ظهر</p>
+            </div>
+          </li>
+          <li className="pb-6 flex items-center justify-between border-b border-greenD">
+            <p> پنج شنبه</p>
+            <div className=" flex items-center">
+              <span className=" pl-1 pb-1">
+                <IoMdTime size="20px" />
+              </span>
+              <p>4:00 عصر - 8:00 شب</p>
             </div>
           </li>
         </ul>
