@@ -1,6 +1,5 @@
 import Image from "next/image";
 import photo from "../../public/images/contactus/yazd 5.webp";
-import eitaa from '../../public/images/footer/eitaa.svg'
 
 import { AiOutlinePhone } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
@@ -73,7 +72,7 @@ export default function ContactUs() {
   return (
     <>
       <Head>
-                <title>تماس با مرکز مشاوره عمومی آفرینش</title>
+        <title>تماس با مرکز مشاوره عمومی آفرینش</title>
       </Head>
       <section>
         <div className=" relative h-[350px] w-full aspect-w-16 aspect-h-9">
@@ -98,6 +97,7 @@ export default function ContactUs() {
                 <div className=" mt-5 flex flex-col space-y-5 md:inline">
                   <input
                     type="text"
+                    autoComplete="off"
                     placeholder="* نام"
                     name="name"
                     className=" focus:outline-none w-full  md:w-[48%] ml-3 border-b-2 pb-4 md:ml-7"
@@ -106,6 +106,7 @@ export default function ContactUs() {
                   />
                   <input
                     type="text"
+                    autoComplete="off"
                     placeholder="نام خانوادگی"
                     name="family"
                     className="focus:outline-none w-full md:w-[48%] pb-4 border-b-2"
@@ -116,6 +117,7 @@ export default function ContactUs() {
                 <div className=" mt-10 flex flex-col space-y-5 md:inline">
                   <input
                   type="tel"
+                  autoComplete="off"
                   placeholder="شماره موبایل"
                   name="phone"
                   pattern="[0-9]*"
@@ -127,6 +129,7 @@ export default function ContactUs() {
                   />
                   <input
                   type="email"
+                  autoComplete="off"
                   placeholder="ایمیل"
                   name="email"
                   className=" focus:outline-none w-full md:w-[48%] pb-4 border-b-2 "
@@ -174,9 +177,6 @@ export default function ContactUs() {
                 <div className=" flex justify-center items-center ">
                     <a href="https://www.instagram.com/afarinesh.clinic.yazd/?igsh=dGVwYjFpZGZxajU4" className=" inline-block ">
                       <FaInstagram size="30px" className="text-[#46533B] pr-2" />
-                    </a>
-                    <a href="" className=" inline-block mr-5">
-                      <Image src={eitaa} alt="eitta contactus" width={21} height={21}/>
                     </a>
                 </div>
               </div>

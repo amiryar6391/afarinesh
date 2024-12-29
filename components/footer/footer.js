@@ -1,6 +1,5 @@
 import Image from "next/image";
 import logo from '../../public/logo/Logo_Afarinesh.svg'
-import eitaa from '../../public/images/footer/eitaa.svg'
 import { GiPlainCircle } from "react-icons/gi";
 import { HiOutlineDevicePhoneMobile } from "react-icons/hi2";
 import { GrLocation } from "react-icons/gr";
@@ -20,9 +19,6 @@ export default function Footer(){
                     <p className=" text-left text-greenD font-iransB border-b pb-6">تا حال خوب را برای خود بیافرینید</p>
                     <p className=" flex items-center justify-center font-iransB  text-greenD mt-2">
                         ما را دنبال کنید : <a href="https://www.instagram.com/afarinesh.clinic.yazd/?igsh=dGVwYjFpZGZxajU4"><FaInstagram size='30px' className="text-[#46533B] pr-2"/></a>
-                        <a href="" className=" mr-3">
-                            <Image src={eitaa} alt="eitta footer" width={21} height={21}/>
-                        </a>
                     </p>
                 </div>
                 <div className=" col-span-12 text-center lg:col-span-4 md:col-span-6">

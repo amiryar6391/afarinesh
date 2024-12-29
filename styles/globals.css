@@ -8,7 +8,6 @@
 @layer base {
     @font-face {
       font-family: 'iransansR';
-     
       src: url('../public/fonts/IRANSansX-Regular.woff');
     }
   }
@@ -51,8 +50,5 @@
   .article h1{
     @apply font-bold text-2xl font-iransB text-black my-6;
   }
-  .image img{
-    @apply flex mt-8 mb-8 w-[800px] h-[500px] mx-auto;
-  }
-
+  
  

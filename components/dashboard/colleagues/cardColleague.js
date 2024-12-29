@@ -40,4 +40,3 @@ export default function Cardcolleague({_id, name , describe , image , onDelete})
     )
 }
 
-// width={787} height={1180}
